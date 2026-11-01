@@ -1,0 +1,68 @@
+{
+  "run_id": "gelu_gelu_gelu/seed_0",
+  "activation_sites": [
+    "GELU",
+    "GELU",
+    "GELU"
+  ],
+  "completed_epochs": 100,
+  "runtime_wall_seconds": 1071.8970618999992,
+  "finished_utc": "2026-10-30T18:13:01.000968+00:00",
+  "minimum_printed_validation_loss": 0.00049,
+  "candidate_epochs": [
+    83,
+    98
+  ],
+  "candidate_rows_rounded_stdout_only": [
+    {
+      "epoch": 83,
+      "printed_training_combined_loss": 0.000434,
+      "printed_training_mse_component": 0.00043,
+      "printed_training_rank_unweighted": 3.98e-05,
+      "printed_validation_combined_loss": 0.00049,
+      "printed_validation_mse_component": 0.000486,
+      "printed_validation_rank_unweighted": 3.39e-05,
+      "printed_test_combined_loss": 0.000396,
+      "printed_test_mse_component": 0.000393,
+      "printed_test_rank_unweighted": 3.46e-05,
+      "printed_validation_evaluator_mse": 0.00049,
+      "printed_validation_IC": 0.0343,
+      "printed_validation_RIC": 0.274,
+      "printed_validation_precision_at_10": 0.543,
+      "printed_validation_gross_sharpe_at_5": 2.84,
+      "printed_test_evaluator_mse": 0.000394,
+      "printed_test_IC": 0.0368,
+      "printed_test_RIC": 0.414,
+      "printed_test_precision_at_10": 0.535,
+      "printed_test_gross_sharpe_at_5": 1.72
+    },
+    {
+      "epoch": 98,
+      "printed_training_combined_loss": 0.000461,
+      "printed_training_mse_component": 0.000457,
+      "printed_training_rank_unweighted": 3.95e-05,
+      "printed_validation_combined_loss": 0.00049,
+      "printed_validation_mse_component": 0.000487,
+      "printed_validation_rank_unweighted": 3.24e-05,
+      "printed_test_combined_loss": 0.000436,
+      "printed_test_mse_component": 0.000432,
+      "printed_test_rank_unweighted": 4.05e-05,
+      "printed_validation_evaluator_mse": 0.000491,
+      "printed_validation_IC": 0.0165,
+      "printed_validation_RIC": 0.143,
+      "printed_validation_precision_at_10": 0.534,
+      "printed_validation_gross_sharpe_at_5": 2.29,
+      "printed_test_evaluator_mse": 0.000433,
+      "printed_test_IC": 0.0284,
+      "printed_test_RIC": 0.308,
+      "printed_test_precision_at_10": 0.532,
+      "printed_test_gross_sharpe_at_5": 0.806
+    }
+  ],
+  "printed_nonfinite_fields": [],
+  "exact_internal_best_epoch_and_metrics_not_exported": true,
+  "no_weights_or_optimizer_rng_checkpoints": true,
+  "no_inprocess_instrumentation_or_extra_evaluation": true,
+  "all31_expected_source_data_hashes_unchanged": true,
+  "test_period_already_inspected": true
+}

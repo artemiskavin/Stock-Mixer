@@ -1,0 +1,10 @@
+{
+  "name": "no_indicator",
+  "family": "StockMixer",
+  "activation": "HardSwish",
+  "ablation": "indicator",
+  "hidden_width": null,
+  "market_width": 20,
+  "expected_parameters": 44957,
+  "upstream_revision": "cce13598afd3ff33ae317700a85ae08db0554652"
+}

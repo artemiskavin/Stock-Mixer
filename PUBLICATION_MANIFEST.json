@@ -1,0 +1,693 @@
+{
+  "prepared_utc": "2026-11-01T11:27:11.086892+00:00",
+  "upstream_revision": "cce13598afd3ff33ae317700a85ae08db0554652",
+  "modified_runs": 18,
+  "author_runs": 3,
+  "total_epochs": 2100,
+  "source_files_copied_byte_identically": [
+    {
+      "source": "ablations/no_indicator/StockMixer/src/evaluator.py",
+      "package_path": "ablations/no_indicator/StockMixer/src/evaluator.py",
+      "sha256": "0ca7398f8c975b65be5fe003975dc28732acb27278716ed00fce0d628d0a0e60"
+    },
+    {
+      "source": "ablations/no_indicator/StockMixer/src/load_data.py",
+      "package_path": "ablations/no_indicator/StockMixer/src/load_data.py",
+      "sha256": "648ae80f8464257dbccff1254d5c6d3210f6a3f87b9f24d65f73eb41e1734c97"
+    },
+    {
+      "source": "ablations/no_indicator/StockMixer/src/experiment.json",
+      "package_path": "ablations/no_indicator/StockMixer/src/experiment.json",
+      "sha256": "3545ee41950d4ba1b3b296010c2949a6bd928b8d509968ca39017a95fd04b183"
+    },
+    {
+      "source": "artifacts/preflight/20261027T143936Z/no_indicator/numerical_checks/preflight.json",
+      "package_path": "preflight/no_indicator/preflight.json",
+      "sha256": "319a6ac97aa07fd57120ca5a9e807020ffe774ead597afa12c878f79341a03d9"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/no_indicator/seed_0/per_epoch_metrics.csv",
+      "package_path": "results/modified/no_indicator/seed_0/per_epoch_metrics.csv",
+      "sha256": "130e2eab1c3c025ce06ccccebf6c0402e94af2d8243fe5025342b0ee01a1f76e"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/no_indicator/seed_0/selection.json",
+      "package_path": "results/modified/no_indicator/seed_0/selection.json",
+      "sha256": "f2889b2ffaa5c783595003bb626be79363d10468e43a1f5f73113f9280850c5f"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/no_indicator/seed_1/per_epoch_metrics.csv",
+      "package_path": "results/modified/no_indicator/seed_1/per_epoch_metrics.csv",
+      "sha256": "0f29ec782acd11bc1103b351d251a7813463648f7c64164931602f15faafc136"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/no_indicator/seed_1/selection.json",
+      "package_path": "results/modified/no_indicator/seed_1/selection.json",
+      "sha256": "57e25753808e789b8da181332d95499ca5f5615c4242187b4270c915ffe92939"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/no_indicator/seed_2/per_epoch_metrics.csv",
+      "package_path": "results/modified/no_indicator/seed_2/per_epoch_metrics.csv",
+      "sha256": "fc61e8ecaa994d5fdc6b8efd0d0d7716c6e69db6eb14f06d67f0d6fc335d1114"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/no_indicator/seed_2/selection.json",
+      "package_path": "results/modified/no_indicator/seed_2/selection.json",
+      "sha256": "14d4d1291f8982c6a82ddf1a428ba8a7cdf853bdd7fd9ead4453c1d3ada5d7aa"
+    },
+    {
+      "source": "ablations/no_temporal/StockMixer/src/evaluator.py",
+      "package_path": "ablations/no_temporal/StockMixer/src/evaluator.py",
+      "sha256": "0ca7398f8c975b65be5fe003975dc28732acb27278716ed00fce0d628d0a0e60"
+    },
+    {
+      "source": "ablations/no_temporal/StockMixer/src/load_data.py",
+      "package_path": "ablations/no_temporal/StockMixer/src/load_data.py",
+      "sha256": "648ae80f8464257dbccff1254d5c6d3210f6a3f87b9f24d65f73eb41e1734c97"
+    },
+    {
+      "source": "ablations/no_temporal/StockMixer/src/experiment.json",
+      "package_path": "ablations/no_temporal/StockMixer/src/experiment.json",
+      "sha256": "878e2222d2948517cdba0f47b72059d578bd0ff9b325e4cd1743485dfef40aa8"
+    },
+    {
+      "source": "artifacts/preflight/20261027T143936Z/no_triu/numerical_checks/preflight.json",
+      "package_path": "preflight/no_triu/preflight.json",
+      "sha256": "5dec4342e3ca08e4045c2c9d51adefbbfda96be8724fd8fd0cc5cfce46720acb"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/no_triu/seed_0/per_epoch_metrics.csv",
+      "package_path": "results/modified/no_triu/seed_0/per_epoch_metrics.csv",
+      "sha256": "0bdd34ca0f5ec3b086783109e692d97e763d6c98b8a6ecdefcb82d79edcad9a2"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/no_triu/seed_0/selection.json",
+      "package_path": "results/modified/no_triu/seed_0/selection.json",
+      "sha256": "44e582e0d4c5cd5b7c10957c698e7472a04da1433d9f1d25173b475a053df41e"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/no_triu/seed_1/per_epoch_metrics.csv",
+      "package_path": "results/modified/no_triu/seed_1/per_epoch_metrics.csv",
+      "sha256": "26cff10ecf286286a980ad8710035f6a16cb94b9e17c6b852a0a826e820fd1ff"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/no_triu/seed_1/selection.json",
+      "package_path": "results/modified/no_triu/seed_1/selection.json",
+      "sha256": "27d82dfc839e0329a7dd9082599d43becd4837de599937b840052dbfef49c006"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/no_triu/seed_2/per_epoch_metrics.csv",
+      "package_path": "results/modified/no_triu/seed_2/per_epoch_metrics.csv",
+      "sha256": "06ddc2536b9a5c39dd612f2004442c705aac380c1e2f83b9a0c1f481e0749e55"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/no_triu/seed_2/selection.json",
+      "package_path": "results/modified/no_triu/seed_2/selection.json",
+      "sha256": "cd503dd328ceed8e8a66fee74d2b77b7a4c8abaf03becd795d5fa4edfc65160e"
+    },
+    {
+      "source": "ablations/no_stock/StockMixer/src/evaluator.py",
+      "package_path": "ablations/no_stock/StockMixer/src/evaluator.py",
+      "sha256": "0ca7398f8c975b65be5fe003975dc28732acb27278716ed00fce0d628d0a0e60"
+    },
+    {
+      "source": "ablations/no_stock/StockMixer/src/load_data.py",
+      "package_path": "ablations/no_stock/StockMixer/src/load_data.py",
+      "sha256": "648ae80f8464257dbccff1254d5c6d3210f6a3f87b9f24d65f73eb41e1734c97"
+    },
+    {
+      "source": "ablations/no_stock/StockMixer/src/experiment.json",
+      "package_path": "ablations/no_stock/StockMixer/src/experiment.json",
+      "sha256": "e9f53774baa7f14c4d7d2e8f1cffa1f89186dd9e8f0741e2fd453b5fac9ff029"
+    },
+    {
+      "source": "artifacts/preflight/20261027T143936Z/no_stock/numerical_checks/preflight.json",
+      "package_path": "preflight/no_stock/preflight.json",
+      "sha256": "d2cd75eee29a8ebdfbfa1221fe1b3ed1effde1c22ed4fe6b9ed0e8bd9d0f4fed"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/no_stock/seed_0/per_epoch_metrics.csv",
+      "package_path": "results/modified/no_stock/seed_0/per_epoch_metrics.csv",
+      "sha256": "98ad3934dbcdb18ded768e5c828d35881efde80326de32377a2d78262cb7b7b8"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/no_stock/seed_0/selection.json",
+      "package_path": "results/modified/no_stock/seed_0/selection.json",
+      "sha256": "02f72e9a3c7aa7d92ad97ff2f56230e067bf181c8a74cef862b16da0d41fb3ea"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/no_stock/seed_1/per_epoch_metrics.csv",
+      "package_path": "results/modified/no_stock/seed_1/per_epoch_metrics.csv",
+      "sha256": "d3a6077c8fdde4f363326372fef272a661e6b8366c18705d636c10f56f30d39b"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/no_stock/seed_1/selection.json",
+      "package_path": "results/modified/no_stock/seed_1/selection.json",
+      "sha256": "55d92dcb180ccf4731a053192ddedcb89c0482befa8b522852c51a7a36f49dd9"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/no_stock/seed_2/per_epoch_metrics.csv",
+      "package_path": "results/modified/no_stock/seed_2/per_epoch_metrics.csv",
+      "sha256": "667ee53aaf4c2745d0016e1fe6e241964283131942683edcc0adb9cfab0e9a5e"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/no_stock/seed_2/selection.json",
+      "package_path": "results/modified/no_stock/seed_2/selection.json",
+      "sha256": "8afd2c0c66e31e2621a2e88a6270cf42e98241a0518b100be5b288ad8f568be1"
+    },
+    {
+      "source": "baselines/LSTM/src/evaluator.py",
+      "package_path": "baselines/LSTM/src/evaluator.py",
+      "sha256": "0ca7398f8c975b65be5fe003975dc28732acb27278716ed00fce0d628d0a0e60"
+    },
+    {
+      "source": "baselines/LSTM/src/load_data.py",
+      "package_path": "baselines/LSTM/src/load_data.py",
+      "sha256": "648ae80f8464257dbccff1254d5c6d3210f6a3f87b9f24d65f73eb41e1734c97"
+    },
+    {
+      "source": "baselines/LSTM/src/model.py",
+      "package_path": "baselines/LSTM/src/model.py",
+      "sha256": "5ce2e72887e189c9ad2cc5df9999130c999379084717ddbf3e5cbfc48fde23de"
+    },
+    {
+      "source": "baselines/LSTM/src/experiment.json",
+      "package_path": "baselines/LSTM/src/experiment.json",
+      "sha256": "56c1f7208c7d27ad99e07989d066f86d2b29415714be70709c4c99e71e40dd45"
+    },
+    {
+      "source": "artifacts/preflight/20261027T143936Z/lstm/recurrent_v2/numerical_checks/preflight.json",
+      "package_path": "preflight/lstm/preflight.json",
+      "sha256": "492b8ef802488a40144a5582ce4f759019712f00438a4ddd3d74342fd15cd9b4"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/lstm/seed_0/per_epoch_metrics.csv",
+      "package_path": "results/modified/lstm/seed_0/per_epoch_metrics.csv",
+      "sha256": "0e2d0ac3c7cf47a6b3c49f925514f8650a63050cd3078ab4f9c186590668ad77"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/lstm/seed_0/selection.json",
+      "package_path": "results/modified/lstm/seed_0/selection.json",
+      "sha256": "89cdc724369a3a9ff90554e2e6d89d54137f0e70082309071b2c89c135fc1ef3"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/lstm/seed_1/per_epoch_metrics.csv",
+      "package_path": "results/modified/lstm/seed_1/per_epoch_metrics.csv",
+      "sha256": "d7677fef85510703beff48b526708e1f0d37cee4ff0f256dd639772a0aaef8b7"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/lstm/seed_1/selection.json",
+      "package_path": "results/modified/lstm/seed_1/selection.json",
+      "sha256": "802ad062538093e038259c4a8e5289b28124cd9c1f276ea8284a05be808f14ef"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/lstm/seed_2/per_epoch_metrics.csv",
+      "package_path": "results/modified/lstm/seed_2/per_epoch_metrics.csv",
+      "sha256": "d4751f5103a3021e7b0e3ccf461351bcf8205d697498f281bada90180db70686"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/lstm/seed_2/selection.json",
+      "package_path": "results/modified/lstm/seed_2/selection.json",
+      "sha256": "85032e64afab3bfbe553da571eaae740d58d5b521d968a3f14db1690154c5e32"
+    },
+    {
+      "source": "baselines/GRU/src/evaluator.py",
+      "package_path": "baselines/GRU/src/evaluator.py",
+      "sha256": "0ca7398f8c975b65be5fe003975dc28732acb27278716ed00fce0d628d0a0e60"
+    },
+    {
+      "source": "baselines/GRU/src/load_data.py",
+      "package_path": "baselines/GRU/src/load_data.py",
+      "sha256": "648ae80f8464257dbccff1254d5c6d3210f6a3f87b9f24d65f73eb41e1734c97"
+    },
+    {
+      "source": "baselines/GRU/src/model.py",
+      "package_path": "baselines/GRU/src/model.py",
+      "sha256": "262ef1cec83f74143f66d4f75281f3d795ea337419bd01e7cf890d2e9cce6333"
+    },
+    {
+      "source": "baselines/GRU/src/experiment.json",
+      "package_path": "baselines/GRU/src/experiment.json",
+      "sha256": "49a268cbe4d7cc6f33d377872aeb9131f42f19ea0c1489404f159d1ec6406347"
+    },
+    {
+      "source": "artifacts/preflight/20261027T143936Z/gru/recurrent_v2/numerical_checks/preflight.json",
+      "package_path": "preflight/gru/preflight.json",
+      "sha256": "6fb2f9ec21d3a1d0a0f410f356d525a82a86d2116a02a096fe35db5720605fdf"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/gru/seed_0/per_epoch_metrics.csv",
+      "package_path": "results/modified/gru/seed_0/per_epoch_metrics.csv",
+      "sha256": "53959ed5b73c63cbf54e9faf84ccfaf572e2963e80e26eb242c43339ec64ab18"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/gru/seed_0/selection.json",
+      "package_path": "results/modified/gru/seed_0/selection.json",
+      "sha256": "808209772088791982ab7a20f65a9e58588a54889b97558e004fc0f976c7c99e"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/gru/seed_1/per_epoch_metrics.csv",
+      "package_path": "results/modified/gru/seed_1/per_epoch_metrics.csv",
+      "sha256": "78fc369871727ecb7c68fe16bff59da5e3c2210cbb6f6d105f5e91281fba2304"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/gru/seed_1/selection.json",
+      "package_path": "results/modified/gru/seed_1/selection.json",
+      "sha256": "ab5af7f5a1704c0f883aaf424e8a5138c82b1d0257165830bf475a11946ddfbc"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/gru/seed_2/per_epoch_metrics.csv",
+      "package_path": "results/modified/gru/seed_2/per_epoch_metrics.csv",
+      "sha256": "b755e7029741a909d0bd39b694b7c6554be71e946bf1eaccafbfd196a5c96a5b"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/gru/seed_2/selection.json",
+      "package_path": "results/modified/gru/seed_2/selection.json",
+      "sha256": "60a69f47ca4208031bec103c48ad4d5387cd015a7e937ed2c4b3a0ad89c55c10"
+    },
+    {
+      "source": "baselines/LSTM_stock_mixing/src/evaluator.py",
+      "package_path": "baselines/LSTM_stock_mixing/src/evaluator.py",
+      "sha256": "0ca7398f8c975b65be5fe003975dc28732acb27278716ed00fce0d628d0a0e60"
+    },
+    {
+      "source": "baselines/LSTM_stock_mixing/src/load_data.py",
+      "package_path": "baselines/LSTM_stock_mixing/src/load_data.py",
+      "sha256": "648ae80f8464257dbccff1254d5c6d3210f6a3f87b9f24d65f73eb41e1734c97"
+    },
+    {
+      "source": "baselines/LSTM_stock_mixing/src/model.py",
+      "package_path": "baselines/LSTM_stock_mixing/src/model.py",
+      "sha256": "eacbaaf152d61d561c1c4ddf279b8a7ea9a5eda49cdc160c471b061fd0a5031e"
+    },
+    {
+      "source": "baselines/LSTM_stock_mixing/src/experiment.json",
+      "package_path": "baselines/LSTM_stock_mixing/src/experiment.json",
+      "sha256": "621b957f502e0fc31031e3124869daff5a58946fd01b7289375f0132bc40bea2"
+    },
+    {
+      "source": "artifacts/preflight/20261027T143936Z/lstm_stock/numerical_checks/preflight.json",
+      "package_path": "preflight/lstm_stock/preflight.json",
+      "sha256": "201e3129651bc992125b8744fe566ed69fa8d624761be2a3badabf1b06671632"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/lstm_stock/seed_0/per_epoch_metrics.csv",
+      "package_path": "results/modified/lstm_stock/seed_0/per_epoch_metrics.csv",
+      "sha256": "6d3c26647dee533cb1cf5636ab04237eb1b92d8f9f3a0accb9244cd415a3336e"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/lstm_stock/seed_0/selection.json",
+      "package_path": "results/modified/lstm_stock/seed_0/selection.json",
+      "sha256": "56105857bb683fd24286c10a374c807158bb96fa62806c61db2d5719338bb596"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/lstm_stock/seed_1/per_epoch_metrics.csv",
+      "package_path": "results/modified/lstm_stock/seed_1/per_epoch_metrics.csv",
+      "sha256": "11ba96f0139312c3b2d08963322b4e877a4b6177079963dcdfc44f3557ff13b1"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/lstm_stock/seed_1/selection.json",
+      "package_path": "results/modified/lstm_stock/seed_1/selection.json",
+      "sha256": "377bf1ad86acaa7db5c512df86c83c1f41e8fec1f3608b80539199be9223f870"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/lstm_stock/seed_2/per_epoch_metrics.csv",
+      "package_path": "results/modified/lstm_stock/seed_2/per_epoch_metrics.csv",
+      "sha256": "2a7d38a8a71ae33ef33dd31813ccb94d79e5abf1ee768152f035da1c01fe205d"
+    },
+    {
+      "source": "artifacts/runs/20261027T143936Z/lstm_stock/seed_2/selection.json",
+      "package_path": "results/modified/lstm_stock/seed_2/selection.json",
+      "sha256": "23f2990d47bd92b17c2b6ab745490f3063e1af0e6ca593cc0d3ecde496e98d4b"
+    },
+    {
+      "source": "authors_run/StockMixer/src/model.py",
+      "package_path": "authors/gelu_gelu_hardswish/StockMixer/src/model.py",
+      "sha256": "8e255da03d1efbbaead8a75f9561e6980c6b19a16f20fa2731f5ce99d4d2ec31"
+    },
+    {
+      "source": "authors_run/StockMixer/src/train.py",
+      "package_path": "authors/gelu_gelu_hardswish/StockMixer/src/train.py",
+      "sha256": "22b7b0fec2cf05f71d71fa32bb37b2531e23d291a5236bdb19d4be5dd6005418"
+    },
+    {
+      "source": "authors_run/StockMixer/src/evaluator.py",
+      "package_path": "authors/gelu_gelu_hardswish/StockMixer/src/evaluator.py",
+      "sha256": "0ca7398f8c975b65be5fe003975dc28732acb27278716ed00fce0d628d0a0e60"
+    },
+    {
+      "source": "authors_run/StockMixer/src/load_data.py",
+      "package_path": "authors/gelu_gelu_hardswish/StockMixer/src/load_data.py",
+      "sha256": "648ae80f8464257dbccff1254d5c6d3210f6a3f87b9f24d65f73eb41e1734c97"
+    },
+    {
+      "source": "authors_run/StockMixer/requirements.txt",
+      "package_path": "authors/gelu_gelu_hardswish/StockMixer/requirements-upstream.txt",
+      "sha256": "a426c869387de5048aa1b5066ca801691b07af3dcbb6aebc5651740df64cf314"
+    },
+    {
+      "source": "authors_run/outputs/20261029T235515Z_author_untouched_nasdaq_seed0/printed_epoch_metrics.csv",
+      "package_path": "results/authors/gelu_gelu_hardswish/printed_epoch_metrics.csv",
+      "sha256": "c421118402d6cb181beb7bf046be0b6c76fbf662db47e6fa588e6ce83b87d177"
+    },
+    {
+      "source": "authors_run/outputs/20261029T235515Z_author_untouched_nasdaq_seed0/author.stdout.log",
+      "package_path": "results/authors/gelu_gelu_hardswish/console.txt",
+      "sha256": "e8ae1cd7439303762b03cfc3a6a62c4088414533e0848e0a37afb0b7ecb594aa"
+    },
+    {
+      "source": "authors_variants/20261030T175434Z_author_stock_activation_variants/gelu_gelu_gelu/StockMixer/src/model.py",
+      "package_path": "authors/gelu_gelu_gelu/StockMixer/src/model.py",
+      "sha256": "84830287272ba49ca0ad1b8b5d8c23da73a580b5eeef8388fe95997e571ad319"
+    },
+    {
+      "source": "authors_variants/20261030T175434Z_author_stock_activation_variants/gelu_gelu_gelu/StockMixer/src/train.py",
+      "package_path": "authors/gelu_gelu_gelu/StockMixer/src/train.py",
+      "sha256": "22b7b0fec2cf05f71d71fa32bb37b2531e23d291a5236bdb19d4be5dd6005418"
+    },
+    {
+      "source": "authors_variants/20261030T175434Z_author_stock_activation_variants/gelu_gelu_gelu/StockMixer/src/evaluator.py",
+      "package_path": "authors/gelu_gelu_gelu/StockMixer/src/evaluator.py",
+      "sha256": "0ca7398f8c975b65be5fe003975dc28732acb27278716ed00fce0d628d0a0e60"
+    },
+    {
+      "source": "authors_variants/20261030T175434Z_author_stock_activation_variants/gelu_gelu_gelu/StockMixer/src/load_data.py",
+      "package_path": "authors/gelu_gelu_gelu/StockMixer/src/load_data.py",
+      "sha256": "648ae80f8464257dbccff1254d5c6d3210f6a3f87b9f24d65f73eb41e1734c97"
+    },
+    {
+      "source": "authors_variants/20261030T175434Z_author_stock_activation_variants/gelu_gelu_gelu/StockMixer/requirements.txt",
+      "package_path": "authors/gelu_gelu_gelu/StockMixer/requirements-upstream.txt",
+      "sha256": "a426c869387de5048aa1b5066ca801691b07af3dcbb6aebc5651740df64cf314"
+    },
+    {
+      "source": "artifacts/runs/20261030T175434Z_author_stock_activation_variants/gelu_gelu_gelu/seed_0/printed_epoch_metrics.csv",
+      "package_path": "results/authors/gelu_gelu_gelu/printed_epoch_metrics.csv",
+      "sha256": "50a04136ffa0a6407ced90a92c1384890cd0ed6d226c16828935c487f05b870d"
+    },
+    {
+      "source": "artifacts/runs/20261030T175434Z_author_stock_activation_variants/gelu_gelu_gelu/seed_0/summary.json",
+      "package_path": "results/authors/gelu_gelu_gelu/summary.json",
+      "sha256": "364fde211739d517b4f85df2da18c586828de5b20a92a09f48e02953a59b9363"
+    },
+    {
+      "source": "artifacts/runs/20261030T175434Z_author_stock_activation_variants/gelu_gelu_gelu/seed_0/author.stdout.log",
+      "package_path": "results/authors/gelu_gelu_gelu/console.txt",
+      "sha256": "bfc2fb65e83e2cda06a0c465639297e7df773caadaad53bd3a826b270d4f3cbc"
+    },
+    {
+      "source": "authors_variants/20261030T175434Z_author_stock_activation_variants/gelu_gelu_sigmoid/StockMixer/src/model.py",
+      "package_path": "authors/gelu_gelu_sigmoid/StockMixer/src/model.py",
+      "sha256": "90eb2a8c38cb9bf4ede771552c7cf89266c9124cfc8a87c6fe230b4152a63aa1"
+    },
+    {
+      "source": "authors_variants/20261030T175434Z_author_stock_activation_variants/gelu_gelu_sigmoid/StockMixer/src/train.py",
+      "package_path": "authors/gelu_gelu_sigmoid/StockMixer/src/train.py",
+      "sha256": "22b7b0fec2cf05f71d71fa32bb37b2531e23d291a5236bdb19d4be5dd6005418"
+    },
+    {
+      "source": "authors_variants/20261030T175434Z_author_stock_activation_variants/gelu_gelu_sigmoid/StockMixer/src/evaluator.py",
+      "package_path": "authors/gelu_gelu_sigmoid/StockMixer/src/evaluator.py",
+      "sha256": "0ca7398f8c975b65be5fe003975dc28732acb27278716ed00fce0d628d0a0e60"
+    },
+    {
+      "source": "authors_variants/20261030T175434Z_author_stock_activation_variants/gelu_gelu_sigmoid/StockMixer/src/load_data.py",
+      "package_path": "authors/gelu_gelu_sigmoid/StockMixer/src/load_data.py",
+      "sha256": "648ae80f8464257dbccff1254d5c6d3210f6a3f87b9f24d65f73eb41e1734c97"
+    },
+    {
+      "source": "authors_variants/20261030T175434Z_author_stock_activation_variants/gelu_gelu_sigmoid/StockMixer/requirements.txt",
+      "package_path": "authors/gelu_gelu_sigmoid/StockMixer/requirements-upstream.txt",
+      "sha256": "a426c869387de5048aa1b5066ca801691b07af3dcbb6aebc5651740df64cf314"
+    },
+    {
+      "source": "artifacts/runs/20261030T175434Z_author_stock_activation_variants/gelu_gelu_sigmoid/seed_0/printed_epoch_metrics.csv",
+      "package_path": "results/authors/gelu_gelu_sigmoid/printed_epoch_metrics.csv",
+      "sha256": "5592e3240ef4c1379656b2ac32bf01421c963672ff6e1ba2855cf29556fcda08"
+    },
+    {
+      "source": "artifacts/runs/20261030T175434Z_author_stock_activation_variants/gelu_gelu_sigmoid/seed_0/summary.json",
+      "package_path": "results/authors/gelu_gelu_sigmoid/summary.json",
+      "sha256": "6b4372292b564ad59341c9701f9e8d204810737d22f285e53ae701b933a4962c"
+    },
+    {
+      "source": "artifacts/runs/20261030T175434Z_author_stock_activation_variants/gelu_gelu_sigmoid/seed_0/author.stdout.log",
+      "package_path": "results/authors/gelu_gelu_sigmoid/console.txt",
+      "sha256": "3736452c0bf712071f9c43561c7f831cbee62d606c79bbacc137e52734803616"
+    },
+    {
+      "source": "reference/StockMixer/src/model.py",
+      "package_path": "reference/StockMixer/src/model.py",
+      "sha256": "8e255da03d1efbbaead8a75f9561e6980c6b19a16f20fa2731f5ce99d4d2ec31"
+    },
+    {
+      "source": "reference/StockMixer/src/train.py",
+      "package_path": "reference/StockMixer/src/train.py",
+      "sha256": "22b7b0fec2cf05f71d71fa32bb37b2531e23d291a5236bdb19d4be5dd6005418"
+    },
+    {
+      "source": "reference/StockMixer/src/evaluator.py",
+      "package_path": "reference/StockMixer/src/evaluator.py",
+      "sha256": "0ca7398f8c975b65be5fe003975dc28732acb27278716ed00fce0d628d0a0e60"
+    },
+    {
+      "source": "reference/StockMixer/src/load_data.py",
+      "package_path": "reference/StockMixer/src/load_data.py",
+      "sha256": "648ae80f8464257dbccff1254d5c6d3210f6a3f87b9f24d65f73eb41e1734c97"
+    }
+  ],
+  "existing_result_selections_changed": false,
+  "scientific_training_or_evaluation_launched": false,
+  "github_push_performed": false,
+  "excluded_experimental_groups": [
+    "uniform-activation modified full models",
+    "released-arrangement modified pipeline",
+    "extensions",
+    "corrective sampler",
+    "beta-zero",
+    "execution-aligned",
+    "recording-only author"
+  ],
+  "source_artifacts_verified_unchanged": 117,
+  "publication_file_adjustments": [
+    {
+      "package_path": "results/authors/gelu_gelu_hardswish/summary.json",
+      "source": "authors_run/outputs/20261029T235515Z_author_untouched_nasdaq_seed0/summary.json",
+      "source_sha256": "dc242e5f814d72052339cfc83264a4d8b9069d724a646d6598f996e764d08416",
+      "publication_sha256": "cb2b4f13495fd122409ce2a3b5ea8b82f620b726275d59385546f23eb08e7b69",
+      "description": "Publication summary omits two execution-control fields; all scientific values are unchanged."
+    },
+    {
+      "package_path": "report/StockMixer_IEEE_Report.pdf",
+      "source": "output/stockmixer_ieee_report_20261101/StockMixer_IEEE_Report.pdf",
+      "source_sha256": "905da177d70c1b0c6864d28b24ba9ad24f9fdd5ef6f7dcaa507a21f93ba9266b",
+      "publication_sha256": "be3f0aa0be3a65ff592eb8828f2126c77d787b1649549e3623a636708a67cafb",
+      "description": "Software-identifying document metadata removed; page content is unchanged."
+    },
+    {
+      "package_path": "report/StockMixer_IEEE_LaTeX_Source.zip",
+      "source": "output/stockmixer_ieee_report_20261101/StockMixer_IEEE_LaTeX_Source.zip",
+      "source_sha256": "5a6af55547dd0f20b198f88f099fb777220b678d317aaa7493bf96f2962cbfef",
+      "publication_sha256": "21bdc4cf2de028b10336e031a293282de12d0374a188e3e788063644da5748df",
+      "description": "Figure software metadata removed; editable text sources are unchanged."
+    },
+    {
+      "package_path": "ablations/no_indicator/StockMixer/src/experiment_checks.py",
+      "source": "ablations/no_indicator/StockMixer/src/experiment_checks.py",
+      "source_sha256": "6f7bb439b3d49c5fbaf0b8424454b0eb4a7dfa5448702d9aabdc3b99fea6f767",
+      "publication_sha256": "205751733d33cf826f6a3f2fa9355f280cf58f7bb86c8b85dcd648952426c725",
+      "description": "Comments, docstrings, and diagnostic messages standardized; computation unchanged."
+    },
+    {
+      "package_path": "ablations/no_indicator/StockMixer/src/experiment_io.py",
+      "source": "ablations/no_indicator/StockMixer/src/experiment_io.py",
+      "source_sha256": "5c4b8c07bdedfb787ee2aeac568a7c49ebc01ce6ac78bec6ca2ef9dd865e4ef1",
+      "publication_sha256": "e5cd834f365e4d6ae73ac0cef04493433d51303e7b1b90476a6f9e0758ec054a",
+      "description": "Comments, docstrings, and diagnostic messages standardized; computation unchanged."
+    },
+    {
+      "package_path": "ablations/no_indicator/StockMixer/src/model.py",
+      "source": "ablations/no_indicator/StockMixer/src/model.py",
+      "source_sha256": "eef5e28421683c7f76100173564cc8f18dc559972038e2c1d79f7d336c16a5a8",
+      "publication_sha256": "cf4da5a32f5fa9eedb06eb4750e2e5f4a6d5eec0a9aea40acedf496ecfc781ac",
+      "description": "Comments, docstrings, and diagnostic messages standardized; computation unchanged."
+    },
+    {
+      "package_path": "ablations/no_indicator/StockMixer/src/train.py",
+      "source": "ablations/no_indicator/StockMixer/src/train.py",
+      "source_sha256": "65f2822608e2235522154acd22c7e342713105f93ce4655586a2288f611bb645",
+      "publication_sha256": "6a9ef427e883823e2b77879e8e2d70cf28372b342e748b1e632757aca5bc5e6a",
+      "description": "Comments, docstrings, and diagnostic messages standardized; computation unchanged."
+    },
+    {
+      "package_path": "ablations/no_temporal/StockMixer/src/experiment_checks.py",
+      "source": "ablations/no_temporal/StockMixer/src/experiment_checks.py",
+      "source_sha256": "6f7bb439b3d49c5fbaf0b8424454b0eb4a7dfa5448702d9aabdc3b99fea6f767",
+      "publication_sha256": "205751733d33cf826f6a3f2fa9355f280cf58f7bb86c8b85dcd648952426c725",
+      "description": "Comments, docstrings, and diagnostic messages standardized; computation unchanged."
+    },
+    {
+      "package_path": "ablations/no_temporal/StockMixer/src/experiment_io.py",
+      "source": "ablations/no_temporal/StockMixer/src/experiment_io.py",
+      "source_sha256": "5c4b8c07bdedfb787ee2aeac568a7c49ebc01ce6ac78bec6ca2ef9dd865e4ef1",
+      "publication_sha256": "e5cd834f365e4d6ae73ac0cef04493433d51303e7b1b90476a6f9e0758ec054a",
+      "description": "Comments, docstrings, and diagnostic messages standardized; computation unchanged."
+    },
+    {
+      "package_path": "ablations/no_temporal/StockMixer/src/model.py",
+      "source": "ablations/no_temporal/StockMixer/src/model.py",
+      "source_sha256": "faaedfbb357e190b17f4c90acd4b558e72040b311a9d7602360223aa40424e3b",
+      "publication_sha256": "4677ae0f15fb80fa75cf651abe54e54ebcf08dc029e842f6784ae1685d34589c",
+      "description": "Comments, docstrings, and diagnostic messages standardized; computation unchanged."
+    },
+    {
+      "package_path": "ablations/no_temporal/StockMixer/src/train.py",
+      "source": "ablations/no_temporal/StockMixer/src/train.py",
+      "source_sha256": "65f2822608e2235522154acd22c7e342713105f93ce4655586a2288f611bb645",
+      "publication_sha256": "6a9ef427e883823e2b77879e8e2d70cf28372b342e748b1e632757aca5bc5e6a",
+      "description": "Comments, docstrings, and diagnostic messages standardized; computation unchanged."
+    },
+    {
+      "package_path": "ablations/no_stock/StockMixer/src/experiment_checks.py",
+      "source": "ablations/no_stock/StockMixer/src/experiment_checks.py",
+      "source_sha256": "6f7bb439b3d49c5fbaf0b8424454b0eb4a7dfa5448702d9aabdc3b99fea6f767",
+      "publication_sha256": "205751733d33cf826f6a3f2fa9355f280cf58f7bb86c8b85dcd648952426c725",
+      "description": "Comments, docstrings, and diagnostic messages standardized; computation unchanged."
+    },
+    {
+      "package_path": "ablations/no_stock/StockMixer/src/experiment_io.py",
+      "source": "ablations/no_stock/StockMixer/src/experiment_io.py",
+      "source_sha256": "5c4b8c07bdedfb787ee2aeac568a7c49ebc01ce6ac78bec6ca2ef9dd865e4ef1",
+      "publication_sha256": "e5cd834f365e4d6ae73ac0cef04493433d51303e7b1b90476a6f9e0758ec054a",
+      "description": "Comments, docstrings, and diagnostic messages standardized; computation unchanged."
+    },
+    {
+      "package_path": "ablations/no_stock/StockMixer/src/model.py",
+      "source": "ablations/no_stock/StockMixer/src/model.py",
+      "source_sha256": "661fc272507d3f5800e5019dd6d118b0f96046af023d1acb2027aca30e759a49",
+      "publication_sha256": "ff593b59e501e43f6df207a58b619c1bbaa24337febc2695ca571428a6f03630",
+      "description": "Comments, docstrings, and diagnostic messages standardized; computation unchanged."
+    },
+    {
+      "package_path": "ablations/no_stock/StockMixer/src/train.py",
+      "source": "ablations/no_stock/StockMixer/src/train.py",
+      "source_sha256": "65f2822608e2235522154acd22c7e342713105f93ce4655586a2288f611bb645",
+      "publication_sha256": "6a9ef427e883823e2b77879e8e2d70cf28372b342e748b1e632757aca5bc5e6a",
+      "description": "Comments, docstrings, and diagnostic messages standardized; computation unchanged."
+    },
+    {
+      "package_path": "baselines/LSTM/src/experiment_checks.py",
+      "source": "baselines/LSTM/src/experiment_checks.py",
+      "source_sha256": "ca1883cce7414986465ae08279d554581624b486fb6aa64c11bca9304a166860",
+      "publication_sha256": "52be998db135ba35632c8de7780446fb6507b01aadefd646239bd0ac75ed24b9",
+      "description": "Comments, docstrings, and diagnostic messages standardized; computation unchanged."
+    },
+    {
+      "package_path": "baselines/LSTM/src/experiment_io.py",
+      "source": "baselines/LSTM/src/experiment_io.py",
+      "source_sha256": "5c4b8c07bdedfb787ee2aeac568a7c49ebc01ce6ac78bec6ca2ef9dd865e4ef1",
+      "publication_sha256": "e5cd834f365e4d6ae73ac0cef04493433d51303e7b1b90476a6f9e0758ec054a",
+      "description": "Comments, docstrings, and diagnostic messages standardized; computation unchanged."
+    },
+    {
+      "package_path": "baselines/LSTM/src/train.py",
+      "source": "baselines/LSTM/src/train.py",
+      "source_sha256": "9e60ad096d95da86df447edd7529f5de5ea1b69a21f4399071d22b7437bbad10",
+      "publication_sha256": "1ad64229d0918361eb9a3e05fbcfb91dac403ff7b1988c8bfc021c754b1d3766",
+      "description": "Comments, docstrings, and diagnostic messages standardized; computation unchanged."
+    },
+    {
+      "package_path": "baselines/GRU/src/experiment_checks.py",
+      "source": "baselines/GRU/src/experiment_checks.py",
+      "source_sha256": "ca1883cce7414986465ae08279d554581624b486fb6aa64c11bca9304a166860",
+      "publication_sha256": "52be998db135ba35632c8de7780446fb6507b01aadefd646239bd0ac75ed24b9",
+      "description": "Comments, docstrings, and diagnostic messages standardized; computation unchanged."
+    },
+    {
+      "package_path": "baselines/GRU/src/experiment_io.py",
+      "source": "baselines/GRU/src/experiment_io.py",
+      "source_sha256": "5c4b8c07bdedfb787ee2aeac568a7c49ebc01ce6ac78bec6ca2ef9dd865e4ef1",
+      "publication_sha256": "e5cd834f365e4d6ae73ac0cef04493433d51303e7b1b90476a6f9e0758ec054a",
+      "description": "Comments, docstrings, and diagnostic messages standardized; computation unchanged."
+    },
+    {
+      "package_path": "baselines/GRU/src/train.py",
+      "source": "baselines/GRU/src/train.py",
+      "source_sha256": "517729f583bdd9de4a1be05f22df76482dcd5292c7e5ccfe6b5ba40937251ef4",
+      "publication_sha256": "0be61b7c0ff2b92e7fed1e1f5079b1f8b2012950df83cf923a2d4522ac662041",
+      "description": "Comments, docstrings, and diagnostic messages standardized; computation unchanged."
+    },
+    {
+      "package_path": "baselines/LSTM_stock_mixing/src/experiment_checks.py",
+      "source": "baselines/LSTM_stock_mixing/src/experiment_checks.py",
+      "source_sha256": "6f7bb439b3d49c5fbaf0b8424454b0eb4a7dfa5448702d9aabdc3b99fea6f767",
+      "publication_sha256": "205751733d33cf826f6a3f2fa9355f280cf58f7bb86c8b85dcd648952426c725",
+      "description": "Comments, docstrings, and diagnostic messages standardized; computation unchanged."
+    },
+    {
+      "package_path": "baselines/LSTM_stock_mixing/src/experiment_io.py",
+      "source": "baselines/LSTM_stock_mixing/src/experiment_io.py",
+      "source_sha256": "5c4b8c07bdedfb787ee2aeac568a7c49ebc01ce6ac78bec6ca2ef9dd865e4ef1",
+      "publication_sha256": "e5cd834f365e4d6ae73ac0cef04493433d51303e7b1b90476a6f9e0758ec054a",
+      "description": "Comments, docstrings, and diagnostic messages standardized; computation unchanged."
+    },
+    {
+      "package_path": "baselines/LSTM_stock_mixing/src/train.py",
+      "source": "baselines/LSTM_stock_mixing/src/train.py",
+      "source_sha256": "23f847a8998a9f47515c069bb616daa07c55629c9c20f80a8e4ec9f7894a7af4",
+      "publication_sha256": "996f8b9efebff5a9274abbda0845316d9934f9e414c11fe7cad1b6aae62d6e0f",
+      "description": "Comments, docstrings, and diagnostic messages standardized; computation unchanged."
+    }
+  ],
+  "publication_metadata_updated_utc": "2026-11-01T11:51:09.366268+00:00",
+  "source_wording_revision": {
+    "updated_utc": "2026-11-01T11:51:09.366268+00:00",
+    "edited_python_files": [
+      "ablations/no_indicator/StockMixer/src/experiment_checks.py",
+      "ablations/no_indicator/StockMixer/src/experiment_io.py",
+      "ablations/no_indicator/StockMixer/src/model.py",
+      "ablations/no_indicator/StockMixer/src/train.py",
+      "ablations/no_stock/StockMixer/src/experiment_checks.py",
+      "ablations/no_stock/StockMixer/src/experiment_io.py",
+      "ablations/no_stock/StockMixer/src/model.py",
+      "ablations/no_stock/StockMixer/src/train.py",
+      "ablations/no_temporal/StockMixer/src/experiment_checks.py",
+      "ablations/no_temporal/StockMixer/src/experiment_io.py",
+      "ablations/no_temporal/StockMixer/src/model.py",
+      "ablations/no_temporal/StockMixer/src/train.py",
+      "baselines/GRU/src/experiment_checks.py",
+      "baselines/GRU/src/experiment_io.py",
+      "baselines/GRU/src/train.py",
+      "baselines/LSTM/src/experiment_checks.py",
+      "baselines/LSTM/src/experiment_io.py",
+      "baselines/LSTM/src/train.py",
+      "baselines/LSTM_stock_mixing/src/experiment_checks.py",
+      "baselines/LSTM_stock_mixing/src/experiment_io.py",
+      "baselines/LSTM_stock_mixing/src/train.py",
+      "tools/prepare_data.py",
+      "tools/print_run_command.py"
+    ],
+    "model_computation_unchanged": true,
+    "normalized_python_asts_identical": true,
+    "new_numerical_tests": 0,
+    "derived_source_compatibility_reports": [
+      "preflight/no_indicator/publication_preflight.json",
+      "preflight/no_triu/publication_preflight.json",
+      "preflight/no_stock/publication_preflight.json"
+    ],
+    "historical_source_hashes_preserved": true
+  },
+  "publication_verification": {
+    "verified_utc": "2026-11-01T12:08:41.293033+00:00",
+    "record": "VALIDATION.md",
+    "checksums": "CHECKSUMS.sha256",
+    "completed_runs": 21,
+    "completed_epoch_records": 2100,
+    "cpu_model_constructions": 9,
+    "forward_calls": 0,
+    "optimizer_updates": 0,
+    "modified_seed0_initial_hashes_matched": 6,
+    "original_sources_and_result_archive_unchanged": true,
+    "github_push_performed": false
+  }
+}

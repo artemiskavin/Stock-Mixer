@@ -1,0 +1,4 @@
+configuration,displayed_epoch,metric_record,test_IC,test_RIC,test_mse,test_prec_10,test_sharpe5
+gelu_gelu_hardswish,78,rounded recorded result; see console and summary for selection limits,0.0408,0.482,0.000394,0.548,1.62
+gelu_gelu_gelu,83,rounded recorded result; see console and summary for selection limits,0.0368,0.414,0.000394,0.535,1.72
+gelu_gelu_sigmoid,69,rounded recorded result; see console and summary for selection limits,0.0225,0.242,0.000461,0.53,0.356

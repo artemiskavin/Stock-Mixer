@@ -1,0 +1,4 @@
+# Keep byte-based source and artifact checksums stable across Git platforms.
+* -text
+*.pdf binary
+*.zip binary

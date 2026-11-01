@@ -1,0 +1,232 @@
+{
+  "no_indicator": {
+    "group": "modified",
+    "source": "ablations/no_indicator/StockMixer",
+    "parameters": 44957,
+    "seed_pairs": [
+      [
+        123456789,
+        12345678
+      ],
+      [
+        234567890,
+        23456789
+      ],
+      [
+        345678901,
+        34567890
+      ]
+    ],
+    "configuration": {
+      "name": "no_indicator",
+      "family": "StockMixer",
+      "activation": "HardSwish",
+      "ablation": "indicator",
+      "hidden_width": null,
+      "market_width": 20,
+      "expected_parameters": 44957,
+      "upstream_revision": "cce13598afd3ff33ae317700a85ae08db0554652"
+    },
+    "preflight": "preflight/no_indicator/publication_preflight.json",
+    "publication_source_note": "Comments, docstrings, and diagnostic messages standardized; computation unchanged."
+  },
+  "no_triu": {
+    "group": "modified",
+    "source": "ablations/no_temporal/StockMixer",
+    "parameters": 44881,
+    "seed_pairs": [
+      [
+        123456789,
+        12345678
+      ],
+      [
+        234567890,
+        23456789
+      ],
+      [
+        345678901,
+        34567890
+      ]
+    ],
+    "configuration": {
+      "name": "no_triu",
+      "family": "StockMixer",
+      "activation": "HardSwish",
+      "ablation": "triu",
+      "hidden_width": null,
+      "market_width": 20,
+      "expected_parameters": 44881,
+      "upstream_revision": "cce13598afd3ff33ae317700a85ae08db0554652"
+    },
+    "preflight": "preflight/no_triu/publication_preflight.json",
+    "publication_source_note": "Comments, docstrings, and diagnostic messages standardized; computation unchanged."
+  },
+  "no_stock": {
+    "group": "modified",
+    "source": "ablations/no_stock/StockMixer",
+    "parameters": 898,
+    "seed_pairs": [
+      [
+        123456789,
+        12345678
+      ],
+      [
+        234567890,
+        23456789
+      ],
+      [
+        345678901,
+        34567890
+      ]
+    ],
+    "configuration": {
+      "name": "no_stock",
+      "family": "StockMixer",
+      "activation": "HardSwish",
+      "ablation": "stock",
+      "hidden_width": null,
+      "market_width": 20,
+      "expected_parameters": 898,
+      "upstream_revision": "cce13598afd3ff33ae317700a85ae08db0554652"
+    },
+    "preflight": "preflight/no_stock/publication_preflight.json",
+    "publication_source_note": "Comments, docstrings, and diagnostic messages standardized; computation unchanged."
+  },
+  "lstm": {
+    "group": "modified",
+    "source": "baselines/LSTM",
+    "parameters": 5025,
+    "seed_pairs": [
+      [
+        123456789,
+        12345678
+      ],
+      [
+        234567890,
+        23456789
+      ],
+      [
+        345678901,
+        34567890
+      ]
+    ],
+    "configuration": {
+      "name": "lstm",
+      "family": "LSTMForecaster",
+      "activation": "native",
+      "ablation": "none",
+      "hidden_width": 32,
+      "market_width": 20,
+      "expected_parameters": 5025,
+      "upstream_revision": "cce13598afd3ff33ae317700a85ae08db0554652",
+      "precision": "fp16"
+    },
+    "preflight": "preflight/lstm/preflight.json",
+    "publication_source_note": "Comments, docstrings, and diagnostic messages standardized; computation unchanged."
+  },
+  "gru": {
+    "group": "modified",
+    "source": "baselines/GRU",
+    "parameters": 3777,
+    "seed_pairs": [
+      [
+        123456789,
+        12345678
+      ],
+      [
+        234567890,
+        23456789
+      ],
+      [
+        345678901,
+        34567890
+      ]
+    ],
+    "configuration": {
+      "name": "gru",
+      "family": "GRUForecaster",
+      "activation": "native",
+      "ablation": "none",
+      "hidden_width": 32,
+      "market_width": 20,
+      "expected_parameters": 3777,
+      "upstream_revision": "cce13598afd3ff33ae317700a85ae08db0554652",
+      "precision": "fp32"
+    },
+    "preflight": "preflight/gru/preflight.json",
+    "publication_source_note": "Comments, docstrings, and diagnostic messages standardized; computation unchanged."
+  },
+  "lstm_stock": {
+    "group": "modified",
+    "source": "baselines/LSTM_stock_mixing",
+    "parameters": 49196,
+    "seed_pairs": [
+      [
+        123456789,
+        12345678
+      ],
+      [
+        234567890,
+        23456789
+      ],
+      [
+        345678901,
+        34567890
+      ]
+    ],
+    "configuration": {
+      "name": "lstm_stock",
+      "family": "LSTMStockForecaster",
+      "activation": "native+HardSwish",
+      "ablation": "none",
+      "hidden_width": 32,
+      "market_width": 20,
+      "expected_parameters": 49196,
+      "upstream_revision": "cce13598afd3ff33ae317700a85ae08db0554652"
+    },
+    "preflight": "preflight/lstm_stock/preflight.json",
+    "publication_source_note": "Comments, docstrings, and diagnostic messages standardized; computation unchanged."
+  },
+  "gelu_gelu_hardswish": {
+    "group": "author",
+    "source": "authors/gelu_gelu_hardswish/StockMixer",
+    "parameters": 45077,
+    "seed_pairs": [
+      [
+        123456789,
+        12345678
+      ]
+    ],
+    "activations": "GELU / GELU / HardSwish",
+    "precision": "ordinary FP32",
+    "backend": "eager installed defaults"
+  },
+  "gelu_gelu_gelu": {
+    "group": "author",
+    "source": "authors/gelu_gelu_gelu/StockMixer",
+    "parameters": 45077,
+    "seed_pairs": [
+      [
+        123456789,
+        12345678
+      ]
+    ],
+    "activations": "GELU / GELU / GELU",
+    "precision": "ordinary FP32",
+    "backend": "eager installed defaults"
+  },
+  "gelu_gelu_sigmoid": {
+    "group": "author",
+    "source": "authors/gelu_gelu_sigmoid/StockMixer",
+    "parameters": 45077,
+    "seed_pairs": [
+      [
+        123456789,
+        12345678
+      ]
+    ],
+    "activations": "GELU / GELU / Sigmoid",
+    "precision": "ordinary FP32",
+    "backend": "eager installed defaults"
+  }
+}

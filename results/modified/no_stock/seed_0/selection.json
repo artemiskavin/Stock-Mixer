@@ -1,0 +1,33 @@
+{
+  "minimum_validation_loss": 0.0004959900170866777,
+  "loss_tolerance": 0.1,
+  "eligibility_threshold": 0.0005455890187953456,
+  "eligible_epochs": [
+    44,
+    45,
+    46,
+    53,
+    57,
+    58,
+    59,
+    61,
+    62,
+    65,
+    69,
+    78,
+    79,
+    80,
+    83,
+    84,
+    85,
+    89,
+    93,
+    94,
+    95,
+    96,
+    100
+  ],
+  "primary_epoch": 61,
+  "secondary_epoch": 100,
+  "unrestricted_best_ic_epoch": 81
+}

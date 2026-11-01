@@ -1,0 +1,10 @@
+{
+  "name": "lstm_stock",
+  "family": "LSTMStockForecaster",
+  "activation": "native+HardSwish",
+  "ablation": "none",
+  "hidden_width": 32,
+  "market_width": 20,
+  "expected_parameters": 49196,
+  "upstream_revision": "cce13598afd3ff33ae317700a85ae08db0554652"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "no_triu",
+  "family": "StockMixer",
+  "activation": "HardSwish",
+  "ablation": "triu",
+  "hidden_width": null,
+  "market_width": 20,
+  "expected_parameters": 44881,
+  "upstream_revision": "cce13598afd3ff33ae317700a85ae08db0554652"
+}

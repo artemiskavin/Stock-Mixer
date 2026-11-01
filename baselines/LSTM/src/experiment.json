@@ -1,0 +1,11 @@
+{
+  "name": "lstm",
+  "family": "LSTMForecaster",
+  "activation": "native",
+  "ablation": "none",
+  "hidden_width": 32,
+  "market_width": 20,
+  "expected_parameters": 5025,
+  "upstream_revision": "cce13598afd3ff33ae317700a85ae08db0554652",
+  "precision": "fp16"
+}

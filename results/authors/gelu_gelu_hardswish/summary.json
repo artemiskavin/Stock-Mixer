@@ -1,0 +1,65 @@
+{
+  "finished_utc": "2026-10-30T00:13:16.936281+00:00",
+  "epochs_completed": 100,
+  "runtime_wall_seconds": 1072.9287814999989,
+  "minimum_printed_validation_loss": 0.000489,
+  "candidate_epochs_from_minimum_printed_loss": [
+    78
+  ],
+  "candidate_rows_rounded_stdout_only": [
+    {
+      "epoch": 78,
+      "printed_training_combined_loss": 0.000487,
+      "printed_training_mse_component": 0.000483,
+      "printed_training_rank_unweighted": 3.91e-05,
+      "printed_validation_combined_loss": 0.000489,
+      "printed_validation_mse_component": 0.000485,
+      "printed_validation_rank_unweighted": 3.48e-05,
+      "printed_test_combined_loss": 0.000396,
+      "printed_test_mse_component": 0.000392,
+      "printed_test_rank_unweighted": 3.27e-05,
+      "printed_validation_evaluator_mse": 0.000489,
+      "printed_validation_IC": 0.0314,
+      "printed_validation_RIC": 0.271,
+      "printed_validation_precision_at_10": 0.535,
+      "printed_validation_gross_sharpe_at_5": 2.13,
+      "printed_test_evaluator_mse": 0.000394,
+      "printed_test_IC": 0.0408,
+      "printed_test_RIC": 0.482,
+      "printed_test_precision_at_10": 0.548,
+      "printed_test_gross_sharpe_at_5": 1.62
+    }
+  ],
+  "final_epoch_rounded_stdout_only": {
+    "epoch": 100,
+    "printed_training_combined_loss": 0.000486,
+    "printed_training_mse_component": 0.000483,
+    "printed_training_rank_unweighted": 3.44e-05,
+    "printed_validation_combined_loss": 0.000492,
+    "printed_validation_mse_component": 0.000489,
+    "printed_validation_rank_unweighted": 2.93e-05,
+    "printed_test_combined_loss": 0.000389,
+    "printed_test_mse_component": 0.000386,
+    "printed_test_rank_unweighted": 2.66e-05,
+    "printed_validation_evaluator_mse": 0.000493,
+    "printed_validation_IC": 0.0344,
+    "printed_validation_RIC": 0.316,
+    "printed_validation_precision_at_10": 0.525,
+    "printed_validation_gross_sharpe_at_5": 1.99,
+    "printed_test_evaluator_mse": 0.000387,
+    "printed_test_IC": 0.0359,
+    "printed_test_RIC": 0.434,
+    "printed_test_precision_at_10": 0.52,
+    "printed_test_gross_sharpe_at_5": 0.948
+  },
+  "exact_internal_best_loss_and_epoch_not_exported": true,
+  "candidate_epochs_do_not_override_author_internal_selection": true,
+  "no_weights_or_resumable_state_exported_by_original_trainer": true,
+  "all_100_epochs_printed_values_finite": true,
+  "finite_gradients_not_measured_by_original_script": true,
+  "source_and_reference_integrity": {
+    "checked_utc": "2026-10-30T00:13:16.936281+00:00",
+    "all_31_source_and_reference_sha256_match": true,
+    "author_source_modified": false
+  }
+}
