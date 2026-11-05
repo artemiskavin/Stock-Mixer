@@ -52,8 +52,9 @@ Complete MSE, Precision@10 and selection records are linked below.
 - [Recorded author-code results](results/author_recorded_results.csv)
 - Per-epoch logs and existing selection files: [modified](results/modified/)
 - Rounded console logs and original summaries: [authors](results/authors/)
-- [Six-page IEEE report](report/StockMixer_IEEE_Report.pdf)
-- [Editable LaTeX source](report/StockMixer_IEEE_LaTeX_Source.zip)
+- [Final six-page IEEE report](report/DL_Lab_Project_Report_StockMixer.pdf)
+- [Single-file LaTeX source](report/DL_Lab_Project_Report_StockMixer.tex)
+- [Complete LaTeX package with figures](report/DL_Lab_Project_Report_StockMixer.zip)
 
 Modified rows use their existing minimum-validation-combined-loss selection.
 Author-code rows are rounded recorded observations; those trainers did not
